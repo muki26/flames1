@@ -1,0 +1,50 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    margin : 0 auto;
+    max-height: 100vh;
+    text-align: center;
+    border-radius: 50px;
+   
+    
+}
+.male-name{
+    padding: 10px;
+}
+.male-name #mal{
+    background: rgba(0, 0, 0, 0.075);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    text-transform: uppercase;
+    text-align: center;
+   color: crimson;
+   border-radius: 50px;
+}
+.female-name{
+    padding: 10px;
+}
+.female-name #femal{
+    background: rgba(0, 0, 0, 0.075);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    text-transform: uppercase;
+    text-align: center;
+   color: crimson;
+   border-radius: 50px;
+}
+#button{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    text-transform: uppercase;
+    text-align: center;
+   color: rgb(107, 110, 146);
+}
+#button :hover{
+    background-color: darkred;
+}
